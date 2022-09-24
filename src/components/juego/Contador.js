@@ -13,8 +13,7 @@ function Contador() {
     setNumWinsJ2(numWinsJ2 + 1);
   }
 
-  return 
-//(
+//  return (
 //    <div className='contador'>
 //      {numWins}
 //    </div>
