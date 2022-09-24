@@ -1,5 +1,5 @@
 import React from "react";
-import Contador from "./components/juego/Contador";
+//import Contador from "../components/juego/Contador";
 
 const Resultado = (props) => {
   let resultadoFinal;
