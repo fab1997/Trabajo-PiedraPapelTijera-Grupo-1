@@ -1,6 +1,12 @@
 .juego{
     background-color: blueviolet;
     text-align: center;
+    text-decoration: solid;
+    font-size: x-large;
+    font-style: inherit;
+    border: 5px solid;
+    padding: auto;
+    margin: auto;
 }
 
 img{
@@ -8,4 +14,21 @@ img{
     display: flex;
     padding: 10px;
     margin: 10px;
+}
+
+.juego h1{
+    background-color: rgb(197, 104, 104);
+    font-size: x-large;
+    font-style: oblique;
+    border: 5px solid;    margin: 10px 1000px 10px 0px;
+    padding: 1px;
+    margin: 0% 2% 10px;
+    padding-bottom: auto;
+}
+h3{
+    background-position: 50px;
+    font-size: x-large;
+    font-style: italic;
+    padding: auto;
+    margin: auto;
 }
