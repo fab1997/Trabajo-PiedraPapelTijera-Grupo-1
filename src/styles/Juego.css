@@ -24,6 +24,7 @@ img{
     padding: 1px;
     margin: 0% 2% 10px;
     padding-bottom: auto;
+    display: inline-block;
 }
 h3{
     background-position: 50px;
