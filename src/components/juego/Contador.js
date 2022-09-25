@@ -13,11 +13,12 @@ function Contador() {
     setNumWinsJ2(numWinsJ2 + 1);
   }
 
-//  return (
-//    <div className='contador'>
-//      {numWins}
-//    </div>
- // );   
+  return (
+    <div className='contador'>
+      numWinsJ1
+      numWinsJ2
+    </div>
+  );
 }
 
 export default Contador;
