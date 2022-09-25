@@ -1,7 +1,5 @@
 .home{
     text-align: center;
-    background: rgb(221, 85, 12);
-
 }
 
 img{
@@ -9,4 +7,7 @@ img{
     display: flex;
     padding: 10px;
     margin: 10px;
+}
+*{
+    background: whitesmoke;
 }

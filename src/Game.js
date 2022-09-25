@@ -5,7 +5,7 @@ import Desarrolladores from './components/Desarrolladores';
 
 function Game() {
   return (
-    <>
+  
     <Router>
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -13,8 +13,7 @@ function Game() {
         <Route path='/desarrolladores' element={<Desarrolladores/>}/>
       </Routes>
     </Router>
-    <footer>Pie de Pagina</footer>
-    </>
+    
   );
 }
 
