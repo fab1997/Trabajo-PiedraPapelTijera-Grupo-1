@@ -1,0 +1,51 @@
+
+
+
+.fotoPerfil{
+    max-width: 380px;
+    min-width: 300px;
+    height: 380px;
+    border: 5px red;
+    margin: auto;
+}
+
+.mainDevs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardDev{
+    margin: auto;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    text-align: center;
+    min-width: 300px;
+}
+
+.nameDev{
+    background-color: rgb(255, 255, 0);
+    font-size: 24px;
+}
+
+.container-fluid{
+    background: linear-gradient(to left, rgb(221, 85, 12), rgb(168, 40, 40));
+    padding-top: 0;
+}
+
+.header{
+    background-color: rgb(255, 81, 0);
+    border: 5px solid rgb(0, 0, 0);
+    padding: 0px;
+    text-align: center;
+    text-decoration-color: aliceblue;
+}
+.header h1{
+    
+    font-size: xx-large;
+    font-style: oblique;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
