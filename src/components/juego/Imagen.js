@@ -5,9 +5,7 @@ import Tijera from "../../img/juego/Tijera.png";
 import Papel from "../../img/juego/Papel.png";
 
 function ImagenActual(props) {
-  const [ImagenObjeto, setImagenObjeto] = useState({});
-  const Imagen = <img src={ImagenBase} alt="ImagenBase" />;
-  setImagenObjeto(Imagen);
+  const [ImagenObjeto, setImagenObjeto] = useState(<img src={ImagenBase} alt="ImagenBase" />);
 
   if ((props.jugador1.eleccion = "Piedra") || (props.jugador2.eleccion = "Piedra")) {
 

@@ -1,6 +1,3 @@
-import React from "react";
-//import Contador from "../components/juego/Contador";
-
 const Resultado = (props) => {
   let resultadoFinal;
 
@@ -9,13 +6,13 @@ const Resultado = (props) => {
     props.jugador1.eleccion
   ) {
     resultadoFinal = <h1>El Ganador es el Jugador 1</h1>;
-    //manejarWinsJ1();
+    //<div>{Contador}</div>
   } else if (
     props.jugador2.derrota === props.jugador1.eleccion &&
     props.jugador1.eleccion
   ) {
     resultadoFinal = <h1>El Ganador es el Jugador 2</h1>;
-    //manejarWinsJ2();
+    //<div>{Contador}</div>
   } else if (
     props.jugador1.eleccion === props.jugador2.eleccion &&
     props.jugador1.eleccion

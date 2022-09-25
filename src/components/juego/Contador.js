@@ -1,24 +1,24 @@
 import React, { useState } from "react";
-//import './Contador.css';
 
-function Contador() {
-  const [numWinsJ1, setNumWinsJ1] = useState(0);
-  const [numWinsJ2, setNumWinsJ2] = useState(0);
+const useCounter = () => {
+  const [counter, setCounter] = useState(0);
+  const increase = () => setCounter(counter + 1)
+  //const reset = () => setCounter(0)
 
-  const manejarWinsJ1 = () => {
-    setNumWinsJ1(numWinsJ1 + 1);
-  }
+  return {
+    counter,
+    increase
+    //reset 
+  };
+};
 
-  const manejarWinsJ2 = () => {
-    setNumWinsJ2(numWinsJ2 + 1);
-  }
+export default function Contador() {
+  const counter = useCounter();
 
   return (
-    <div className='contador'>
-      numWinsJ1
-      numWinsJ2
+    <div>
+      <div>{counter.counter}</div>
+      <div>{counter.increase}</div>
     </div>
-  );
+  )
 }
-
-export default Contador;
