@@ -20,16 +20,27 @@ img{
     background-color: rgb(197, 104, 104);
     font-size: x-large;
     font-style: oblique;
-    border: 5px solid;    margin: 10px 1000px 10px 0px;
+    border: 5px solid; 
     padding: 1px;
     margin: 0% 2% 10px;
     padding-bottom: auto;
     display: inline-block;
 }
 h3{
-    background-position: 50px;
+    background-color: rgb(29, 13, 245);
+    display: inline-block;
+    border: 5px solid;
     font-size: x-large;
     font-style: italic;
     padding: auto;
-    margin: auto;
+    margin: 50px;
+}
+h4{
+    background-color: rgb(250, 12, 12);
+    display: inline-block;
+    border: 5px solid;
+    font-size: x-large;
+    font-style: italic;
+    padding: auto;
+    margin: 50px;
 }

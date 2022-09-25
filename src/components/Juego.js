@@ -55,13 +55,15 @@ export default function Juego() {
               <div clasName="imagen">{Imagen.ImagenActual}</div>
               <div>Puntaje Jugador 1: {Contador}</div>
             </section>
+          </h3>
+          <h4>
             <section id="jugador2">
               <div className="jugador2">Jugador 2</div>
               <div className="eleccion">{eleccionJugador2.eleccion}</div>
               <div clasName="imagen">{Imagen.ImagenActual}</div>
               <div>Puntaje Jugador 2: {Contador}</div>
             </section>
-          </h3>
+          </h4>
           <section id="resultado">
             <Resultado jugador1={eleccionJugador1} jugador2={eleccionJugador2} />
           </section>
