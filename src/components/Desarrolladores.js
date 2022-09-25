@@ -1,14 +1,18 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/desarrolladores.css';
 import HeaderDevs from './desarrolladores/HeaderDevs';
 import DevsMain from './desarrolladores/DevsMain';
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
 function Desarrolladores() {
     return (
         <>
             <div className="container-fluid">
                 <HeaderDevs />
-                <DevsMain />                
+                <DevsMain />
+                <Button variant="warning" >
+                    <Link to='/' className="btn btn-principal">Volver</Link>
+                </Button>            
             </div>
 
         </>
