@@ -1,8 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import '../styles/desarrolladores.css';
-import HeaderDevs from './HeaderDevs';
-import DevsMain from './DevsMain';
+import HeaderDevs from './desarrolladores/HeaderDevs';
+import DevsMain from './desarrolladores/DevsMain';
 
 function Desarrolladores() {
     return (
