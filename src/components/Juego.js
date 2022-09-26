@@ -33,44 +33,44 @@ export default function Juego() {
   const eleccionRandomJ1 = () => {
     const eleccion = opciones[Math.floor(Math.random() * opciones.length)];
     setEleccionJugador1(eleccion);
-    
+
     if (eleccion.eleccion == "Piedra") {
-  
+
       setImgJugador(<img src={Piedra} alt="ImagenPiedra" />);
-      
-    } else if (eleccion.eleccion == "Tijera" ) {
-      
+
+    } else if (eleccion.eleccion == "Tijera") {
+
       setImgJugador(<img src={Tijera} alt="ImagenTijera" />);
-  
+
     } else if (eleccion.eleccion == "Papel") {
-      
+
       setImgJugador(<img src={Papel} alt="ImagenPapel" />);
     }
-    
+
   };
 
   const eleccionRandomJ2 = () => {
     const eleccion = opciones[Math.floor(Math.random() * opciones.length)];
     setEleccionJugador2(eleccion);
     if (eleccion.eleccion == "Piedra") {
-  
+
       setImgJugador2(<img src={Piedra} alt="ImagenPiedra" />);
-      
-    } else if (eleccion.eleccion == "Tijera" ) {
-      
+
+    } else if (eleccion.eleccion == "Tijera") {
+
       setImgJugador2(<img src={Tijera} alt="ImagenTijera" />);
-  
+
     } else if (eleccion.eleccion == "Papel") {
-      
+
       setImgJugador2(<img src={Papel} alt="ImagenPapel" />);
     }
   };
 
   const hacerClic = () => {
-    
+
     eleccionRandomJ1();
     eleccionRandomJ2();
-    
+
   }
 
   const volverHome = () => {
@@ -80,37 +80,40 @@ export default function Juego() {
 
   return (
     <div className="juego">
-      
-          <section id="jugador1">
-            <div className="jugador1">Jugador 1</div>
-            <div className="eleccion">{eleccionJugador1.eleccion}</div>
-            <div className="imagen">{imgJugador}</div>
-            <div>Puntaje Jugador 1: {Contador}</div>
-          </section>
-          <section id="jugador2">
-            <div className="jugador2">Jugador 2</div>
-            <div className="eleccion">{eleccionJugador2.eleccion}</div>
-            <div className="imagen">{imgJugador2}</div>
-            <div>Puntaje Jugador 2: {Contador}</div>
-          </section>
-          <section id="resultado">
-            <Resultado jugador1={eleccionJugador1} jugador2={eleccionJugador2} />
-          </section>
-          <div className='botones'>
-            <section id="boton-jugar">
-              <a href="#"><Boton
-                texto='Jugar'
-                esBotonDeClic={true}
-                manejarClic={hacerClic} /></a>
-            </section>
-            <section id="boton-volver">
-              <a href="http://localhost:3000" rel="noopener noreferrer"><Boton
-                texto='Volver'
-                esBotonDeClic={false}
-                manejarClic={volverHome} /></a>
-            </section>
-          </div>
-       
+
+      <h3><section id="jugador1">
+        <div className="jugador1">Jugador 1</div>
+        <div className="eleccion">{eleccionJugador1.eleccion}</div>
+        <div className="imagen">{imgJugador}</div>
+        <div>Puntaje Jugador 1: {Contador}</div>
+      </section>
+      </h3>
+      <h4>
+        <section id="jugador2">
+          <div className="jugador2">Jugador 2</div>
+          <div className="eleccion">{eleccionJugador2.eleccion}</div>
+          <div className="imagen">{imgJugador2}</div>
+          <div>Puntaje Jugador 2: {Contador}</div>
+        </section>
+      </h4>
+      <section id="resultado">
+        <Resultado jugador1={eleccionJugador1} jugador2={eleccionJugador2} />
+      </section>
+      <div className='botones'>
+        <section id="boton-jugar">
+          <a href="#"><Boton
+            texto='Jugar'
+            esBotonDeClic={true}
+            manejarClic={hacerClic} /></a>
+        </section>
+        <section id="boton-volver">
+          <a href="http://localhost:3000" rel="noopener noreferrer"><Boton
+            texto='Volver'
+            esBotonDeClic={false}
+            manejarClic={volverHome} /></a>
+        </section>
+      </div>
+
     </div>
   );
 };
