@@ -13,8 +13,8 @@ class DevsMain extends React.Component {
                     <Card.Body>
                         <ListGroup variant="flush">
                             <ListGroup.Item></ListGroup.Item>
-                            <ListGroup.Item>Algo</ListGroup.Item>
-                            <ListGroup.Item>Y aquí pondría una descripcion. Si tuviera una!!!</ListGroup.Item>
+                            <ListGroup.Item>Hobby: Dibujar, Animar y Escuchar Música</ListGroup.Item>
+                            <ListGroup.Item>Una chica que le gusta crear, diseñar, programar y jugar videojuegos</ListGroup.Item>
                         </ListGroup>
                     </Card.Body>
                 </Card>
@@ -25,8 +25,8 @@ class DevsMain extends React.Component {
                     <Card.Body>
                         <ListGroup variant="flush">
                             <ListGroup.Item></ListGroup.Item>
-                            <ListGroup.Item>Algo</ListGroup.Item>
-                            <ListGroup.Item>Y aquí pondría una descripcion. Si tuviera una!!!</ListGroup.Item>
+                            <ListGroup.Item>Hobbies:Leer </ListGroup.Item>
+                            <ListGroup.Item>Intereses: Terminar Hollow night, aprender técnicas de programación y IA.</ListGroup.Item>
                         </ListGroup>
                     </Card.Body>
                 </Card>
@@ -37,8 +37,8 @@ class DevsMain extends React.Component {
                     <Card.Body>
                         <ListGroup variant="flush">
                             <ListGroup.Item></ListGroup.Item>
-                            <ListGroup.Item>Algo</ListGroup.Item>
-                            <ListGroup.Item>Y aquí pondría una descripcion. Si tuviera una!!!</ListGroup.Item>
+                            <ListGroup.Item>Softcombat, juegos de rol, manga anime, taekwondo y literatura</ListGroup.Item>
+                            <ListGroup.Item>Dormir, trabajar, programar, rehacer y volver a repetir</ListGroup.Item>
                         </ListGroup>
                     </Card.Body>
                 </Card>
@@ -49,8 +49,8 @@ class DevsMain extends React.Component {
                     <Card.Body>
                         <ListGroup variant="flush">
                             <ListGroup.Item></ListGroup.Item>
-                            <ListGroup.Item>Algo</ListGroup.Item>
-                            <ListGroup.Item>Y aquí pondría una descripcion. Si tuviera una!!!</ListGroup.Item>
+                            <ListGroup.Item>Hobbies: Modelado 3D y practicante en animacion 3D</ListGroup.Item>
+                            <ListGroup.Item>Jugar, dormir, adoro comer Pizza, Napolitana y comida Chatarra</ListGroup.Item>
                         </ListGroup>
                     </Card.Body>
                 </Card>
@@ -73,8 +73,8 @@ class DevsMain extends React.Component {
                     <Card.Body>
                         <ListGroup variant="flush">
                             <ListGroup.Item></ListGroup.Item>
-                            <ListGroup.Item>Algo</ListGroup.Item>
-                            <ListGroup.Item>Y aquí pondría una foto y descripcion. Si tuviera una!!!</ListGroup.Item>
+                            <ListGroup.Item>Hobbies:Me gusta jugar a la pelota con amigos</ListGroup.Item>
+                            <ListGroup.Item>Mirar series en mis tiempos libres y aprender electrónica</ListGroup.Item>
                         </ListGroup>
                     </Card.Body>
                 </Card>
