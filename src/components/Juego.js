@@ -48,18 +48,22 @@ export default function Juego() {
     <div className="juego">
       <body>
         <main>
-          <section id="jugador1">
-            <div className="jugador1">Jugador 1</div>
-            <div className="eleccion">{eleccionJugador1.eleccion}</div>
-            <div clasName="imagen">{Imagen.ImagenActual}</div>
-            <div>Puntaje Jugador 1: {Contador}</div>
-          </section>
-          <section id="jugador2">
-            <div className="jugador2">Jugador 2</div>
-            <div className="eleccion">{eleccionJugador2.eleccion}</div>
-            <div clasName="imagen">{Imagen.ImagenActual}</div>
-            <div>Puntaje Jugador 2: {Contador}</div>
-          </section>
+          <h3>
+            <section id="jugador1">
+              <div className="jugador1">Jugador 1</div>
+              <div className="eleccion">{eleccionJugador1.eleccion}</div>
+              <div clasName="imagen">{Imagen.ImagenActual}</div>
+              <div>Puntaje Jugador 1: {Contador}</div>
+            </section>
+          </h3>
+          <h4>
+            <section id="jugador2">
+              <div className="jugador2">Jugador 2</div>
+              <div className="eleccion">{eleccionJugador2.eleccion}</div>
+              <div clasName="imagen">{Imagen.ImagenActual}</div>
+              <div>Puntaje Jugador 2: {Contador}</div>
+            </section>
+          </h4>
           <section id="resultado">
             <Resultado jugador1={eleccionJugador1} jugador2={eleccionJugador2} />
           </section>
